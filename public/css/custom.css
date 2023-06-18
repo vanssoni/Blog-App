@@ -1,0 +1,24 @@
+a.blog_link {
+    text-decoration: none;
+    color: #333;
+}
+.ck.ck-content {
+    height: 300px;
+}
+div#mceu_16.error{
+    border: 1.5px solid red !important;
+}
+.blog_image{
+    max-height: 300px;
+    object-fit: cover;
+}
+.pagination_links{
+    display: grid;
+    justify-content: center;
+}
+button.swal2-cancel.btn.btn-danger {
+    margin: 10px !important;
+}
+.card{
+    border: unset !important;
+}
