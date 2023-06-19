@@ -31,7 +31,7 @@
                 @else
                     @if(\Auth::user()->is_admin)
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('categories.index') }}">{{ __('Manage Post Categories') }}</a>
+                            <a class="nav-link" href="{{ route('categories.index') }}">{{ __('Manage Blog Categories') }}</a>
                         </li>
                     @endif
                     <li class="nav-item">
@@ -39,7 +39,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a id="cateogoryDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            {{ __('Post Categories') }}
+                            {{ __('Blog Categories') }}
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="cateogoryDropdown">
